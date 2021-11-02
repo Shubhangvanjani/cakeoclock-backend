@@ -1,0 +1,26 @@
+{
+  "name": "cakeoclock-backend",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start":"nodemon --watch ../cakeoclock-backend --exec node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shubhangvanjani/cakeoclock-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shubhangvanjani/cakeoclock-backend/issues"
+  },
+  "homepage": "https://github.com/Shubhangvanjani/cakeoclock-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
